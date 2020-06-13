@@ -14,7 +14,7 @@ public class DiscordBotApplication {
 
     public static void main(String[] args) {
         try{
-            JDA jda = JDABuilder.createDefault("NzIwODUxNTU0MzgyMzgxMTg3.XuMBDw.P0cSNLOwx5krGFvd1riT2EO19uQ").build();
+            JDA jda = JDABuilder.createDefault("").build();
             jda.addEventListener(new IntroductoryEvent());
 
         }catch (LoginException loginException){
